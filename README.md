@@ -8,34 +8,47 @@ A CLI tool that analyzes a code repository and generates a detailed System Desig
 - 📊 **Diagram Generation**: Creates Architecture Diagrams using Mermaid.js.
 - 📝 **Markdown Output**: Generates a clean `SYSTEM_DESIGN.md` file.
 
-## Usage
+## 🚀 Quick Start (Beginner's Guide)
 
-🚀 **Quick Start (No Install Required)**
+You don't need to install anything! Just open your terminal (Command Prompt, PowerShell, or Terminal) and follow these steps.
 
-Run the following command in your repository root:
+### 1. Open Your Project
+Navigate to the folder where your code is located.
+```bash
+cd your-project-folder
+```
 
+### 2. Run the Tool
+Run this magic command:
 ```bash
 npx system-design-generator
 ```
 
-Or specify a path:
+That's it! 🎉 
+It will analyze your code and create a new file called `SYSTEM_DESIGN.md` in your folder. You can open this file to see your system architecture.
 
+---
+
+## 🛠 Advanced Usage
+
+### Analyze a Specific Folder
+If you are in a different folder, you can tell the tool which folder to analyze:
 ```bash
-npx system-design-generator /path/to/your/project
+npx system-design-generator "C:/Path/To/Your/Project"
 ```
 
-### 📦 Install Globally
-If you want to use it frequently:
-
+### Install Globally (Optional)
+If you want to use this tool often without downloading it every time:
 ```bash
 npm install -g system-design-generator
 ```
-Then run:
+Then you can just run:
 ```bash
-system-design-generator .
+system-design-generator
 ```
 
-### 🛠 Local Development
+### 👨‍💻 Local Development
+If you want to modify this tool:
 1. Clone the repo
 2. Install dependencies: `npm install`
 3. Build: `npm run build`
