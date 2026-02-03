@@ -27,6 +27,14 @@
     "cli"
   ],
   "author": "Mallik Galib Shahriar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MallikGalibShahriar/system-design-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MallikGalibShahriar/system-design-generator/issues"
+  },
+  "homepage": "https://github.com/MallikGalibShahriar/system-design-generator#readme",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^22.0.0",
