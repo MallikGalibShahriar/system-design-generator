@@ -1,0 +1,44 @@
+{
+  "name": "system-design-generator",
+  "version": "1.0.0",
+  "description": "Generate system design documentation from a repository",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "system-design-generator": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm src/index.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "system-design",
+    "generator",
+    "cli"
+  ],
+  "author": "Mallik Galib Shahriar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "ora": "^8.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4"
+  }
+}
